@@ -6,10 +6,10 @@
         public $password;
 
         public function __construct(){
-            $this->server = "localhost";
-            $this->username = "root";
-            $this->password = "";
-            $this->dbName = "shop_210290";
+            $this->server = "s29oj5odr85rij2o.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	";
+            $this->username = "y88zr8ou49gjxwcp";
+            $this->password = "zs3uod1iaypy68rg";
+            $this->dbName = "dchkgv5fzr3oxc01";
         }
 
         //Option 1: mySQL
