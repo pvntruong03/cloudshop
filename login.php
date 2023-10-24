@@ -17,7 +17,7 @@
             
             if($numrow==1){
                 echo "Login successfully!";
-                $_SESSION['user_name'] = $row['user_name'];
+                $_SESSION['user_name'] = $row['username'];
                 header("Location: index.php");
             } else{
                 echo "Something wrong with your info<br>";
