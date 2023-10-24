@@ -41,6 +41,8 @@
             }
         }
 
+    }else{
+        header('Location: login.php');
     }
 ?>
 <div class="container">
