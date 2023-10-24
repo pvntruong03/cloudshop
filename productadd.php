@@ -41,8 +41,6 @@
             }
         }
 
-    }else{
-        header('Location: index.php');
     }
 ?>
 <div class="container">
