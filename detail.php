@@ -22,6 +22,11 @@ if (isset($_GET['delete_id'])) {
         echo "Failed to delete the product.";
     }
 }
+if(isset($_SESSION["user_name"])) {
+    $users = $_SESSION['user_name'];
+}else{
+    header('Location: login.php');
+}
 ?>
 
 <div class="container mx-auto">
