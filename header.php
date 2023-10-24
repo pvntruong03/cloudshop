@@ -72,11 +72,6 @@
     <!--Section-->
     <section class="py-5 text-center container" style="background-image: url(img/Back.jpg); height:300px; width:700px;background-repeat: no-repeat;background-size:cover;">
             
-            <div class="row"style="height:500px;">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                <        -->
-                </div>
-            </div>
      </section>
 
     <!-- <div class="b-example-divider" style="height: 3rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15); 
