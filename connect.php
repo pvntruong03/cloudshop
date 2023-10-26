@@ -6,10 +6,10 @@
         public $password;
 
         public function __construct(){
-            $this->server ="s29oj5odr85rij2o.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-            $this->username ="y88zr8ou49gjxwcp";
-            $this->password ="zs3uod1iaypy68rg";
-            $this->dbName ="dchkgv5fzr3oxc01";
+            $this->server ="l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	";
+            $this->username ="p5aqh9h7abshdmzw";
+            $this->password ="g99lmn9lh88cc66m";
+            $this->dbName ="pgr0omax6p62b6wx";
         }
 
         //Option 1: mySQL
