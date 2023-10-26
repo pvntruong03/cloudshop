@@ -109,7 +109,7 @@
         <div class="row mb-3">
             <div class="col-12">
                 <label for="cat_id" class="col-sm-2" style="font-weight: bold; color:cornflowerblue">Shop ID</label>
-                <input type="text" id="cat_id" name="cat_id" class="form-control" value="" placeholder="Cat ID">
+                <input type="text" id="cat_id" name="cat_id" class="form-control" value="" placeholder="Shop ID">
             </div>
         </div>
 
