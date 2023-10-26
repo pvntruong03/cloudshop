@@ -15,7 +15,7 @@
             $proDes  = $_POST['product_Description'];
             $proDate = date('Y-m-d',strtotime($_POST['product_date']));
             $proQuan = $_POST['quantity'];
-            $catID = $_POST['cat_id'];
+            $shopid = $_POST['shop_id'];
     
             $img = str_replace(' ','-',$_FILES['Pro_image']['name']); 
             $imgdir = './img/'; //duong dan
@@ -25,11 +25,11 @@
             ); //dua hinh vao duong dan ./img/
     
             if($flag){
-                $sql = "INSERT INTO `product`(`pname`, `pprice`, `pquan`, `pdesc`, `pimg`, `pdate`, `catid`) VALUES(?,?,?,?,?,?,?)";
+                $sql = "INSERT INTO `product`(`pname`, `pprice`, `pquan`, `pdesc`, `pimg`, `pdate`, `shop_id`) VALUES(?,?,?,?,?,?,?)";
     
                 $re = $dbLink->prepare($sql);
                 $valueArray = [
-                    "$proName","$price","$proQuan","$proDes","$img","$proDate","$catID"
+                    "$proName","$price","$proQuan","$proDes","$img","$proDate","$shopid"
                 ];
     
                 $stmt = $re->execute($valueArray);
@@ -108,7 +108,7 @@
         <!--Cat ID-->
         <div class="row mb-3">
             <div class="col-12">
-                <label for="cat_id" class="col-sm-2" style="font-weight: bold; color:cornflowerblue">Cat ID</label>
+                <label for="cat_id" class="col-sm-2" style="font-weight: bold; color:cornflowerblue">Shop ID</label>
                 <input type="text" id="cat_id" name="cat_id" class="form-control" value="" placeholder="Cat ID">
             </div>
         </div>
