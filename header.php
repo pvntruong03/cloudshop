@@ -32,14 +32,14 @@
             <div class="collapse navbar-collapse" id="navsup">
                 <!--Left-->
                 <div class="navbar-nav">
-                    /* <a href="cart.php" class="nav-link">Cart</a> */
+                    <a href="cart.php" class="nav-link"></a>
                     <div class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Managament</a>
 
 
                         <div class="dropdown-menu">
                             <a href="productadd.php" class="dropdown-item">Product Add</a>
-                            /* <a href="" class="dropdown-item">Product Delete</a> */
+                            <a href="" class="dropdown-item">Product Delete</a>
                         </div>
                     </div>
                     <div class="Search">
