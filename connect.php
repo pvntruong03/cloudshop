@@ -6,7 +6,7 @@
         public $password;
 
         public function __construct(){
-            $this->server ="l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	";
+            $this->server ="l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
             $this->username ="p5aqh9h7abshdmzw";
             $this->password ="g99lmn9lh88cc66m";
             $this->dbName ="pgr0omax6p62b6wx";
